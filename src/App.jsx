@@ -6,7 +6,7 @@ function App() {
       {/* Header */}
       <header className={`w-full p-4 text-center ${Colors.header}`}>
         <h1 className={`text-4xl font-bold ${Colors.primary}`}>
-          Centralized Color Structure
+          Centralized Color Structure 
         </h1>
       </header>
 
