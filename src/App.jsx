@@ -5,8 +5,8 @@ function App() {
     <div className={`min-h-screen flex flex-col items-center justify-between ${Colors.background}`}>
       {/* Header */}
       <header className={`w-full p-4 text-center ${Colors.header}`}>
-        <h1 className={`text-4xl font-bold ${Colors.primary}`}>
-          Centralized Color Structure 
+        <h1 className={`text-4xl font-bold`} style={{ color: Colors.primary }}>
+          Centralized Color Structure
         </h1>
       </header>
 
@@ -29,7 +29,9 @@ function App() {
 
         {/* Section with custom border color */}
         <div className={`p-4 ${Colors.border}`}>
-          <p className={`text-xl ${Colors.primary}`}>This section has a custom border color.</p>
+          <p className={`text-xl`} style={{ color: Colors.primary }}>
+            This section has a custom border color.
+          </p>
         </div>
       </main>
 

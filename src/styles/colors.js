@@ -1,5 +1,5 @@
 const colors = {
-  primary: "text-blue-700", // Tailwind class for blue text
+  primary: "#1D4ED8", // Hex for blue text
   secondary: "text-green-500", // Tailwind class for green text
   accent: "bg-amber-500", // Tailwind class for Amber background
   background: "bg-gray-100", // Tailwind class for light gray background
@@ -12,4 +12,4 @@ const colors = {
   highlight: "bg-yellow-300", // Tailwind class for yellow background highlight
 };
 
-export default colors; // Export the colors object
+export default colors;
